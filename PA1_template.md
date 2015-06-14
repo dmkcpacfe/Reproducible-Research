@@ -14,6 +14,22 @@ analysis and read the data into R.
 
 ```r
         library(dplyr)
+```
+
+```
+## 
+## Attaching package: 'dplyr'
+## 
+## The following object is masked from 'package:stats':
+## 
+##     filter
+## 
+## The following objects are masked from 'package:base':
+## 
+##     intersect, setdiff, setequal, union
+```
+
+```r
         library(lubridate)
         library(ggplot2)
         library(scales)
@@ -239,8 +255,6 @@ and median are negligible.
 There are differnces between between weekday and weekend intervals. It 
 appears from comparing the two graphs that step intervals peak earlier on the
 weekend as compared to their peak on weekdays.
-
-
 
 
 
