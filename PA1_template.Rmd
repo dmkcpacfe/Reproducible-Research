@@ -182,7 +182,11 @@ There are differnces between between weekday and weekend intervals. It
 appears from comparing the two graphs that step intervals peak earlier on the
 weekend as compared to their peak on weekdays.
 
-
+```{r, include=FALSE}
+   # add this chunk to end of PA1_template.rmd
+   file.rename(from="scripts/PA1_template.md", 
+               to="README.md")
+```
 
 
 
