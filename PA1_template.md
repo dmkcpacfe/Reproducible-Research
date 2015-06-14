@@ -14,22 +14,6 @@ analysis and read the data into R.
 
 ```r
         library(dplyr)
-```
-
-```
-## 
-## Attaching package: 'dplyr'
-## 
-## The following object is masked from 'package:stats':
-## 
-##     filter
-## 
-## The following objects are masked from 'package:base':
-## 
-##     intersect, setdiff, setequal, union
-```
-
-```r
         library(lubridate)
         library(ggplot2)
         library(scales)
